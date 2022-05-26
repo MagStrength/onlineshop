@@ -8,11 +8,15 @@
     <title>shop</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/6754a75dc2.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
     <header class="header">
         <div class="container">
             <div class="header-flex">
@@ -27,13 +31,57 @@
                 </div>
 
                 <nav class="header__right">
-                    <a href="#"><img src="img_index/menu.svg" alt="menu icon"></a>
-                    <a href="#"><img src="img_index/registration.svg" alt="account" class="account__img"></a>
-                    <a href="#" class="basket"><img src="img_index/basket.svg" alt="basket"><span
-                            class="basket__number">5</span></a>
+                    <a href="#" class="menu-burger"><img src="img_index/menu.svg" alt="menu icon"></a>
+                    <a href="#"><img src="img_index/registration.svg" alt="account" class="account_img"></a>
+                    <a href="#" class="basket"><img src="img_index/basket.svg" alt="basket">
+                        <span class="basket_number">5</span></a>
+
+
+                    <ul class="menu">
+                        <li class="menu_close"> X </li>
+                        <li class="menu_heading">MENU</li>
+                        <li class="menu_block">MAN</li>
+
+                        <li class="menu_block_link">
+                            <a href="#" class="menu_link">Accessories</a>
+                            <a href="#" class="menu_link">Bags</a>
+                            <a href="#" class="menu_link">Denim</a>
+                            <a href="#" class="menu_link">T-Shirts</a>
+                        </li>
+
+                        <li class="menu_block">WOMAN</li>
+                        <li class="menu_block_link">
+                            <a href="#" class="menu_link">Accessories</a>
+                            <a href="#" class="menu_link">Jackets & Coats</a>
+                            <a href="#" class="menu_link">Polos</a>
+                            <a href="#" class="menu_link">T-Shirts</a>
+                            <a href="#" class="menu_link">Shirts</a>
+                        </li>
+
+
+                        <li class="menu_block">KIDS</li>
+                        <li class="menu_block_link">
+                            <a href="#" class="menu_link">Accessories</a>
+                            <a href="#" class="menu_link">Jackets & Coats</a>
+                            <a href="#" class="menu_link">Polos</a>
+                            <a href="#" class="menu_link">T-Shirts</a>
+                            <a href="#" class="menu_link">Shirts</a>
+                            <a href="#" class="menu_link">Bags</a>
+                        </li>
+                    </ul>
+
+                    <!--   <div class="menu">
+                        <h3 class="menu_heading">MENU</h3>
+                        <h3 class="menu_block">MAN</h3>
+                        <a class="menu_link" href="#">Accessories</a>
+                        <a class="menu_link" href="#">Bags</a>
+                        <a class="menu_link" href="#">Denim</a>
+                        <a class="menu_link" href="#">T-Shirts</a>
+                    </div> -->
                 </nav>
 
             </div>
+        </div>
     </header>
 
 
@@ -44,50 +92,48 @@
             <div class="banner_text">
                 <div class="border"></div>
                 <div class="text_block">
-                    <h1 class="brand">THE BRAND</h2>
-                        <p class="lux">OF LUXERIOUS<span class="fashion"> FASHION</span></p>
+                    <h1 class="brand">THE BRAND</h1>
+                    <p class="lux">OF LUXERIOUS<span class="fashion"> FASHION</span></p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <div class="offer container">
+    <section class="offer">
+        <div class="container">
+            <div class="offers__top">
+                <a href="#" class="offer_item">
+                    <img class="offer_photo" src="img_index/card_1.jpg" alt="photo">
+                    <h3 class="offer_text"><span class="offer_tile">30% off</span><span class="offer_heading">FOR
+                            WOMAN</span></h3>
+                </a>
 
-        <div class="offers__top">
+                <a href="#" class="offer_item">
+                    <img class="offer_photo" src="img_index/card_2.jpg" alt="photo">
+                    <h3 class="offer_text"><span class="offer_tile">HOT DEAL</span>
+                        <span class="offer_heading">FOR MAN</span>
+                    </h3>
+                </a>
 
-            <a href="#" class="offer_item">
-                <img class="offer_photo" src="img_index/card_1.jpg" alt="photo">
-                <h3 class="offer_text"><span class="offer_tile">30% off</span><span class="offer_heading">FOR
-                        WOMAN</span></h3>
-            </a>
+                <a href="#" class="offer_item">
+                    <img class="offer_photo" src="img_index/card_3.jpg" alt="photo">
+                    <h3 class="offer_text"><span class="offer_tile">NEW ARRIVALS</span>
+                        <span class="offer_heading">FOR KID</span>
+                    </h3>
+                </a>
+            </div>
 
-            <a href="#" class="offer_item">
-                <img class="offer_photo" src="img_index/card_2.jpg" alt="photo">
-                <h3 class="offer_text"><span class="offer_tile">HOT DEAL</span>
-                    <span class="offer_heading">FOR MAN</span>
-                </h3>
-            </a>
-
-            <a href="#" class="offer_item">
-                <img class="offer_photo" src="img_index/card_3.jpg" alt="photo">
-                <h3 class="offer_text"><span class="offer_tile">NEW ARRIVALS</span>
-                    <span class="offer_heading">FOR KID</span>
-                </h3>
-            </a>
-
+            <div class="offer_bottom">
+                <a href="#" class="offer_item">
+                    <img class="offer_photo" src="img_index/card_4.jpg" alt="photo">
+                    <h3 class="offer_text"><span class="offer_tile">LUXIROUS & TRENDY</span>
+                        <span class="offer_heading">ACCESORIES</span>
+                    </h3>
+                </a>
+            </div>
         </div>
-
-        <div class="offer_bottom">
-            <a href="#" class="offer_item">
-                <img class="offer_photo" src="img_index/card_4.jpg" alt="photo">
-                <h3 class="offer_text"><span class="offer_tile">LUXIROUS & TRENDY</span>
-                    <span class="offer_heading">ACCESORIES</span>
-                </h3>
-            </a>
-        </div>
-
-    </div>
+    </section>
 
 
     <section class="item-sec">
@@ -241,16 +287,7 @@
                 <p>Browse All Product</p>
             </a>
 
-
-
-
-
         </div>
-
-
-
-
-
     </section>
 
 
@@ -288,12 +325,12 @@
         <div class="promotion_email container">
 
             <figure class="promotion_left">
-                <div class="promotion_left_inside">
-                    <img src="img_index/lady.png" alt="lady">
-                    <figcaption>
-                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
-                    </figcaption>
-                </div>
+                <img src="img_index/lady.png" alt="lady">
+                <figcaption>
+                    <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="promotion_italics"> a
+                            pulvinar
+                            purus condimentum“</span></p>
+                </figcaption>
             </figure>
 
 
@@ -344,7 +381,7 @@
     </footer>
 
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>
