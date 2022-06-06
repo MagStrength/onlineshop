@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6754a75dc2.js" crossorigin="anonymous"></script>
+    <link type="image/x-icon" href="img_index/logo.svg" rel="shortcut icon">
+    <link type="Image/x-icon" href="img_index/logo.svg" rel="icon">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+
+            <header class="header">
+                <div class="container">
+                    <div class="header-flex">
+
+                        <nav class="header__left">
+                            <a href="index.html" class="header-logo"><img src="img_index/logo.svg" alt="logo icon"
+                                    class="header-logo__img"></a>
+                            <form action="#" class="search-form">
+                                <input type="image" class="search-form__img" src="img_index/search.svg"
+                                    alt="search icon">
+                                <input type="text" class="search__input" placeholder="Search">
+                            </form>
+                        </nav>
+
+                        <nav class="header__right">
+                            <a href="#" class="menu-burger"><img src="img_index/menu.svg" alt="menu icon"></a>
+                            <a href="registration.html"><img src="img_index/registration.svg" alt="account"
+                                    class="account_img"></a>
+                            <a href="cart.html" class="basket"><img src="img_index/basket.svg" alt="basket">
+                                <span class="basket_number">5</span></a>
+
+
+                            <ul class="menu">
+                                <li class="menu_close"> X </li>
+                                <li class="menu_heading">MENU</li>
+                                <li class="menu_block"><a href="catalog.html" class="menu_block">MAN</a></li>
+                                <li class="menu_block_link">
+                                    <a href="#" class="menu_link">Accessories</a>
+                                    <a href="#" class="menu_link">Bags</a>
+                                    <a href="#" class="menu_link">Denim</a>
+                                    <a href="#" class="menu_link">T-Shirts</a>
+                                </li>
+
+                                <li class="menu_block"><a href="#" class="menu_block"></a>WOMAN</li>
+                                <li class="menu_block_link">
+                                    <a href="#" class="menu_link">Accessories</a>
+                                    <a href="#" class="menu_link">Jackets & Coats</a>
+                                    <a href="#" class="menu_link">Polos</a>
+                                    <a href="#" class="menu_link">T-Shirts</a>
+                                    <a href="#" class="menu_link">Shirts</a>
+                                </li>
+
+
+                                <li class="menu_block"><a href="#" class="menu_block"></a>KIDS</li>
+                                <li class="menu_block_link">
+                                    <a href="#" class="menu_link">Accessories</a>
+                                    <a href="#" class="menu_link">Jackets & Coats</a>
+                                    <a href="#" class="menu_link">Polos</a>
+                                    <a href="#" class="menu_link">T-Shirts</a>
+                                    <a href="#" class="menu_link">Shirts</a>
+                                    <a href="#" class="menu_link">Bags</a>
+                                </li>
+                            </ul>
+
+                            <!--   <div class="menu">
+                <h3 class="menu_heading">MENU</h3>
+                <h3 class="menu_block">MAN</h3>
+                <a class="menu_link" href="#">Accessories</a>
+                <a class="menu_link" href="#">Bags</a>
+                <a class="menu_link" href="#">Denim</a>
+                <a class="menu_link" href="#">T-Shirts</a>
+            </div> -->
+                        </nav>
+
+                    </div>
+                </div>
+            </header>
+
+            <div class="arrivals">
+                <div class="container arrivals_flex">
+                    <h3 class=" arrivals_heading registration">REGISTRATION</h3>
+                </div>
+            </div>
+
+
+            <div class="registration_form">
+                <div class="container registration_flex">
+
+                    <div class="registration_form_input">
+                        <form action="#">
+
+                            <p class="form_name">Your Name</p>
+
+                            <input id="fname" class="form_input" placeholder="First Name" autofocus>
+                            <br>
+                            <input id="lname" class="form_input" placeholder="Last Name">
+                            <br>
+
+                            <label for="male">
+                                <input type="radio" id="male" name="male" value="Male">⠀Male
+                            </label>
+                            <label for="female">
+                                <input type="radio" id="female" name="male" value="Female">⠀ Female
+                            </label>
+
+                            <p class="form_name">Login details</p>
+                            <input id="email" class="form_input" placeholder="Email" required
+                                pattern="\S+@[a-z]+.[a-z]+">
+                            <br>
+
+                            <input id="userPassword" type="password" placeholder="Password" required
+                                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" class="form_input">
+
+                            <p class="form_password">Please use 8 or more characters, with at least 1 number and a
+                                mixture of
+                                uppercase and lowercase
+                                letters</p>
+
+                            <button class="button_form" type="submit">JOIN NOW
+                                <i class="fa fa-solid fa-arrow-right-long"></i>
+                            </button>
+                        </form>
+
+
+                    </div>
+
+                    <article class="registration_form_txt">
+                        <h3 class="registration_heading">LOYALTY HAS ITS PERKS</h3>
+                        <p class="registration_txt">Get in on the loyalty program where you can earn points and unlock
+                            serious
+                            perks. Starting with
+                            these
+                            as soon as you join:</p>
+
+                        <div class="registration_chek">
+                            <i class="fa-solid fa-check"></i>
+                            <p>15% off welcome offer</p>
+                        </div>
+
+                        <div class="registration_chek">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Free shipping, returns and exchanges on all orders</p>
+                        </div>
+
+                        <div class="registration_chek">
+                            <i class="fa-solid fa-check"></i>
+                            <p>$10 off a purchase on your birthday</p>
+                        </div>
+
+                        <div class="registration_chek">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Early access to products</p>
+                        </div>
+
+                        <div class="registration_chek">
+                            <i class="fa-solid fa-check"></i>
+                            <p>Exclusive offers & rewards</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+
+            <section class="promotion">
+                <div class="promotion_email container">
+
+                    <figure class="promotion_left">
+                        <img src="img_index/lady.png" alt="lady">
+                        <figcaption>
+                            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="promotion_italics">
+                                    a
+                                    pulvinar
+                                    purus condimentum“</span></p>
+                        </figcaption>
+                    </figure>
+
+
+                    <div class="promotion_right">
+                        <div class="promotion_right_align">
+
+                            <div class="promotion_right_inside">
+                                <h3>SUBSCRIBE</h3>
+                                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                            </div>
+
+                            <form action="#">
+                                <div class="promotion_input">
+                                    <input class="input" type="email" placeholder="Enter Your Email">
+                                    <button class="button" type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footer_copyright container">
+                <p class="footer_copy">2022 &copy; Brand All Rights Reserved.</p>
+
+                <nav class="footer_icon">
+                    <a href="#" class="footer_link">
+                        <i class="fa fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer_link">
+                        <i class="fa fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer_link">
+                        <i class="fa fa-brands fa-pinterest-p"></i>
+                    </a>
+
+                    <a href="#" class="footer_link">
+                        <i class="fa fa-brands fa-twitter"></i>
+                    </a>
+
+
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
