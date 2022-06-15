@@ -1,0 +1,599 @@
+@media screen and (max-width: 1180px) and (min-width: 1116px) {
+  .container {
+    padding: 0 2%;
+  }
+  .item_card-box {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .container {
+    padding: 0 3%;
+  }
+  .item_card-box {
+    width: 30%;
+  }
+  .offer {
+    margin-bottom: 155px;
+    margin-top: 20px;
+  }
+  .offers__top {
+    max-width: 100%;
+  }
+  .offers__top .offer_item {
+    max-width: 32%;
+  }
+  .offer_bottom {
+    width: 100%;
+  }
+  .offer_tile {
+    font-size: 1.7vw;
+  }
+  .offer_heading {
+    font-size: 2vw;
+  }
+  .shopping {
+    margin-top: 59px;
+  }
+  .shopping_info {
+    display: block;
+    margin: 0 auto;
+  }
+  .shopping_card {
+    margin: 0 auto 40px;
+  }
+  .shopping__button {
+    margin-top: 63px;
+    margin-bottom: 65px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .shopping-adress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shopping-adress_checkout {
+    margin-top: 0;
+  }
+  .shopping-adress {
+    width: 100%;
+  }
+  .shopping-adress_resp {
+    margin-right: 1%;
+  }
+  .registration_form_input,
+  .registration_form_txt {
+    max-width: 48%;
+  }
+  .registration_form_txt {
+    font-size: 2vh;
+  }
+  .registration_form_input .form_input {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0 2%;
+  }
+  .banner,
+  .banner_shop {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .banner .brand,
+  .banner_shop .brand {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .banner .lux,
+  .banner_shop .lux {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .banner .photoman,
+  .banner .banner_text,
+  .banner_shop .photoman,
+  .banner_shop .banner_text {
+    width: 47%;
+  }
+  .offer {
+    margin-bottom: 155px;
+    margin-top: 20px;
+  }
+  .offers__top {
+    max-width: 100%;
+  }
+  .offers__top .offer_item {
+    max-width: 32%;
+  }
+  .offer_bottom {
+    width: 100%;
+  }
+  .item_card-box {
+    width: 48%;
+    margin-bottom: 17px;
+  }
+  .desc {
+    margin-bottom: 73px;
+  }
+  .products_all {
+    margin-top: 16px;
+  }
+  .info {
+    height: 100%;
+    margin-top: 65px;
+  }
+  .advantage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 64px;
+  }
+  .advantage .advantage_card {
+    margin-top: 48px;
+    width: 48%;
+  }
+  .promotion {
+    background-position: 25% 75%;
+  }
+  .promotion_email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .promotion_left {
+    margin-top: 54px;
+  }
+  .promotion_right {
+    height: 100%;
+    margin-top: 59px;
+    margin-bottom: 140px;
+  }
+  .moschino {
+    margin-top: 0px;
+  }
+  .moschino__desc {
+    width: 90%;
+  }
+  .item-indent .item_card-box:last-child {
+    display: none;
+  }
+  .filter {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .filter > .moschino__choice {
+    margin-left: auto;
+  }
+  .filter_block .filter_container {
+    right: 0;
+    left: auto;
+  }
+  .catalog .item_card-box:last-child {
+    display: none;
+  }
+  .pagination {
+    margin-top: 24px;
+  }
+  .shopping {
+    margin-top: 59px;
+  }
+  .shopping_info {
+    display: block;
+  }
+  .shopping-adress {
+    width: 90%;
+  }
+  .registration_form_input,
+  .registration_form_txt {
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .account_img,
+  .basket {
+    display: none;
+  }
+  .banner {
+    height: 363px;
+  }
+  .banner .banner_text {
+    width: 100%;
+    padding: auto 0;
+  }
+  .banner .photoman {
+    display: none;
+  }
+  .banner .brand {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .banner .lux {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .banner .border {
+    width: 12px;
+    height: 61px;
+  }
+  .banner .banner_shop {
+    height: 100%;
+  }
+  .banner .text_block {
+    margin-left: 0px;
+  }
+  .advantage {
+    padding-bottom: 81px;
+  }
+  .advantage .advantage_card {
+    width: 70%;
+  }
+  .slider {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 770px) and (min-width: 451px) {
+  .shopping_card {
+    height: 100%;
+    width: 85%;
+  }
+  .shopping_card img,
+  .shopping_card a {
+    width: 31vw;
+    height: 23vh;
+  }
+  .shopping_card__txt {
+    padding-left: 17px;
+    padding-top: 23px;
+    font-size: 2vh;
+    line-height: 2vh;
+  }
+  .shopping_card__heading {
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2.2vh;
+    margin-bottom: 25px;
+  }
+  .shopping_card_button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    width: 48%;
+    height: 35px;
+    color: #575757;
+  }
+  .shopping_card {
+    margin-bottom: 32px;
+  }
+  .shopping__button {
+    margin-top: 30px;
+    margin-bottom: 48px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .shopping-adress {
+    display: inline-block;
+  }
+  .shopping-adress_button {
+    margin-bottom: 48px;
+  }
+  .shopping {
+    margin-bottom: 48px;
+  }
+  .shopping-adress_checkout,
+  .shopping_resp {
+    margin: 0 auto;
+    width: 360px;
+  }
+  .quantity {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .registration_flex {
+    display: block;
+    width: 90%;
+  }
+  .registration_form_txt,
+  .registration_heading {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration_form_input,
+  .registration_form_txt {
+    max-width: 100%;
+  }
+  .button_form {
+    margin-bottom: 40px;
+  }
+  .registration_heading {
+    margin-bottom: 32px;
+  }
+  .form_password {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 372px) {
+  .container {
+    max-width: 100%;
+    padding: 0 3%;
+  }
+  .account_img,
+  .basket,
+  .search__input {
+    display: none;
+  }
+  .banner {
+    height: 363px;
+  }
+  .banner .banner_text {
+    width: 100%;
+    padding: auto 0;
+  }
+  .banner .photoman {
+    display: none;
+  }
+  .banner .brand {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .banner .lux {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .banner .border {
+    width: 12px;
+    height: 61px;
+  }
+  .banner .banner_shop {
+    height: 100%;
+  }
+  .offer {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .offer .offers__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .offer .offers__top .offer_item {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+  .offer .offer_tile {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .offer .offer_heading {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .offer .offer_bottom .offer_item {
+    height: 111px;
+  }
+  .item .desc {
+    margin-bottom: 64px;
+  }
+  .item .item_card-box {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  .item .products_all {
+    margin-top: 24px;
+  }
+  .advantage {
+    padding-bottom: 81px;
+  }
+  .advantage .advantage_card {
+    width: 100%;
+  }
+  .promotion .promotion_left {
+    width: 90%;
+  }
+  .promotion .promotion_right {
+    height: 100%;
+    margin-bottom: 109px;
+  }
+  .promotion .promotion_right_inside h3 {
+    font-size: 24px;
+  }
+  .promotion .promotion_right_inside p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  .promotion .input {
+    width: 90%;
+  }
+  .footer_copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer_copyright .footer_copy {
+    line-height: 19px;
+    padding-bottom: 9px;
+  }
+  .footer_copyright .footer_icon {
+    padding-bottom: 40px;
+    padding-top: 43px;
+  }
+  .arrivals {
+    height: 100%;
+  }
+  .slider {
+    height: 100%;
+  }
+  .arrivals_flex {
+    display: block;
+  }
+  .arrivals_heading {
+    text-align: center;
+    line-height: 148px;
+  }
+  .arrivals_link {
+    text-align: center;
+  }
+  .moschino__price {
+    margin-bottom: 32px;
+  }
+  .moschino__line {
+    margin-bottom: 50px;
+  }
+  .moschino__choice summary {
+    font-size: 10px;
+  }
+  .moschino__basket {
+    margin: 65px auto 65px;
+  }
+  .moschino {
+    margin-bottom: 65px;
+  }
+  .item-indent {
+    margin-bottom: 65px;
+  }
+  .filter_menu p {
+    display: none;
+  }
+  .filter_menu > img {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    padding-left: 0px;
+  }
+  .catalog__resp summary {
+    font-size: 12px;
+  }
+  .filter__margin {
+    cursor: pointer;
+    padding-right: 23px;
+  }
+  .filter_block {
+    width: 96%;
+  }
+  .filter {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+  .item-resp .item-flex {
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+  }
+  .item-resp .item-flex .item_card-box {
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .shopping_card {
+    width: 100%;
+    height: 100%;
+  }
+  .shopping_card img {
+    width: 143px;
+    height: 188px;
+  }
+  .shopping_card__txt {
+    padding-left: 17px;
+    padding-top: 23px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .shopping_card__heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 25px;
+  }
+  .card_quantity {
+    width: 23px;
+    height: 15px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .shopping_card_button {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    width: 48%;
+    height: 32px;
+    color: #575757;
+  }
+  .shopping_card {
+    margin-bottom: 32px;
+  }
+  .shopping__button {
+    margin-top: 30px;
+    margin-bottom: 48px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .shopping-adress {
+    display: inline-block;
+    width: 100%;
+  }
+  .shopping-adress_button {
+    margin-bottom: 48px;
+  }
+  .shopping {
+    margin-bottom: 48px;
+  }
+  .shopping-adress__input {
+    width: 100%;
+  }
+  .shopping-adress_checkout,
+  .shopping-adress_total {
+    width: 100%;
+  }
+  .registration_flex {
+    display: block;
+  }
+  .registration_form_txt,
+  .registration_heading {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .registration_form_input,
+  .registration_form_txt {
+    max-width: 100%;
+  }
+  .button_form {
+    margin-bottom: 40px;
+  }
+  .registration_heading {
+    margin-bottom: 32px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
